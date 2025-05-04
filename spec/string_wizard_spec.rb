@@ -1,6 +1,6 @@
 require "spec_helper"
 
-RSpec.describe StringEnhancer do
+RSpec.describe StringWizard do
   describe "Basic String Operations" do
     describe ".titleize" do
       it "capitalizes the first letter of each word" do

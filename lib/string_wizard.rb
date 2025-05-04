@@ -1,13 +1,13 @@
-require "string_enhancer/version"
-require "string_enhancer/core_ext"
-require "string_enhancer/pattern_matcher"
-require "string_enhancer/transformer"
-require "string_enhancer/encryption"
+require "string_wizard/version"
+require "string_wizard/core_ext"
+require "string_wizard/pattern_matcher"
+require "string_wizard/transformer"
+require "string_wizard/validator"
 require "json"
 require "nokogiri"
 require "date"
 
-module StringEnhancer
+module StringWizard
   class Error < StandardError; end
   class PatternMatchError < Error; end
   class EncryptionError < Error; end

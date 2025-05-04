@@ -1,5 +1,5 @@
 require "bundler/setup"
-require "string_enhancer"
+require "string_wizard"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure

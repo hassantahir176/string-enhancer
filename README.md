@@ -1,12 +1,12 @@
-# StringEnhancer
+# StringWizard
 
-A collection of useful string manipulation and validation methods that aren't available in Ruby's standard library.
+A magical collection of string manipulation and validation methods that aren't available in Ruby's standard library.
 
 ## Features
 
-- Basic string manipulation
-- Pattern matching and extraction
-- String validation
+- Basic string manipulation spells
+- Pattern matching and extraction magic
+- String validation charms
 - Character frequency analysis
 - String similarity calculation
 - String transformation chains
@@ -27,7 +27,7 @@ A collection of useful string manipulation and validation methods that aren't av
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'string_enhancer'
+gem 'string_wizard'
 ```
 
 And then execute:
@@ -36,17 +36,17 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install string_enhancer
+    $ gem install string_wizard
 
 ## Usage
 
-### Basic String Operations
+### Basic String Spells
 
 ```ruby
-# Using the module
-StringEnhancer.titleize("hello world") # => "Hello World"
-StringEnhancer.remove_vowels("hello world") # => "hll wrld"
-StringEnhancer.palindrome?("madam") # => true
+# Using the wizard
+StringWizard.titleize("hello world") # => "Hello World"
+StringWizard.remove_vowels("hello world") # => "hll wrld"
+StringWizard.palindrome?("madam") # => true
 
 # Using string extensions
 "hello world".titleize # => "Hello World"
@@ -119,7 +119,7 @@ analysis = "Hello World!".analyze
 "hello".character_frequency # => { "h" => 1, "e" => 1, "l" => 2, "o" => 1 }
 
 # Clear memoization cache
-StringEnhancer.clear_cache
+StringWizard.clear_cache
 ```
 
 ### Pattern Matching
@@ -203,9 +203,9 @@ result = "hello world".transform
 ## Error Handling
 
 The gem defines several custom error classes:
-- `StringEnhancer::Error` - Base error class
-- `StringEnhancer::PatternMatchError` - Raised when pattern matching fails
-- `StringEnhancer::EncryptionError` - Raised when encryption/decryption fails
+- `StringWizard::Error` - Base error class
+- `StringWizard::PatternMatchError` - Raised when pattern matching fails
+- `StringWizard::EncryptionError` - Raised when encryption/decryption fails
 
 ## Development
 
@@ -215,7 +215,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/hassantahir176/string_enhancer.
+Bug reports and pull requests are welcome on GitHub at https://github.com/hassantahir176/string_wizard.
 
 ## License
 
