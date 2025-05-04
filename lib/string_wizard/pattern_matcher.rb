@@ -1,4 +1,4 @@
-module StringEnhancer
+module StringWizard
   module PatternMatcher
     # Predefined patterns for common use cases
     PATTERNS = {

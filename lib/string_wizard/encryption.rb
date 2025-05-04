@@ -1,4 +1,4 @@
-module StringEnhancer
+module StringWizard
   module Encryption
     require 'openssl'
     require 'base64'

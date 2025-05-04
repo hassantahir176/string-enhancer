@@ -1,4 +1,4 @@
-module StringEnhancer
+module StringWizard
   module Validator
     class << self
       def valid_email?(str)

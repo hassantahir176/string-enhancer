@@ -1,4 +1,4 @@
-module StringEnhancer
+module StringWizard
   module Transformer
     class Chain
       def initialize(str)
@@ -62,7 +62,7 @@ module StringEnhancer
           if transformation.is_a?(Proc)
             result = transformation.call(result)
           else
-            result = StringEnhancer.transform(result, transformation)
+            result = StringWizard.transform(result, transformation)
           end
         end
         result
