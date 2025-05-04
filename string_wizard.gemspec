@@ -1,6 +1,8 @@
+require_relative "lib/string_wizard/version"
+
 Gem::Specification.new do |spec|
   spec.name          = "string_wizard"
-  spec.version       = "0.1.0"
+  spec.version       = StringWizard::VERSION
   spec.authors       = ["Hassan Tahir"]
   spec.email         = ["hassantahirjaura@gmail.com"]
 
